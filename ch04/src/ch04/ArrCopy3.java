@@ -10,7 +10,10 @@ public class ArrCopy3 {
 		System.arraycopy(nations, 0, newArray, cities.length, nations.length);
 		System.out.println(Arrays.toString(newArray));
 		for(int i = 0; i < newArray.length;i++) {
-			System.out.print(newArray[i]+" ");
+			if (i == newArray.length - 1)
+				System.out.print(newArray[i]);
+			else 
+				System.out.print(newArray[i]+", ");
 		}
 		System.out.println("\n============");
 		for(String str : newArray) {
