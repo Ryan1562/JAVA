@@ -22,3 +22,6 @@ public class Static1Ex {
 		s1.prn2();
 	}
 }
+
+
+
