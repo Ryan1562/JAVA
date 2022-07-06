@@ -10,7 +10,7 @@ class D3 {
 public class OverLoading1 {
 	public static void main(String[] args) {
 		D3 d = new D3();
-		d.add(5, 6);
+		d.add(5, 6); 
 		d.add(3.6, 7.5);
 		d.prn("로제");
 		d.prn(67);
