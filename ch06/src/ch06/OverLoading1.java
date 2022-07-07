@@ -1,5 +1,6 @@
-package ch06;
+package ch06; // 같은 클래스내에서
 // overloading 메서드명이 같은데 데이터형이 다르거나 매개변수의 갯수가 다른 것
+//    "        메서드 오버로딩, 생성자 overloading
 class D3 {
 	void add(int x, int y) {	System.out.printf("%d + %d = %d\n", x, y, x+y);	}
 	void add(double x, double y) {	System.out.printf("%.1f + %.1f = %.1f\n", x, y, x+y);	}
@@ -7,10 +8,11 @@ class D3 {
 	void prn(int k) {			System.out.println(k);	}
 	void prn(String name, int age) {	System.out.println("이름 : "+name+", 나이 : " + age);	}
 }
+
 public class OverLoading1 {
 	public static void main(String[] args) {
 		D3 d = new D3();
-		d.add(5, 6); 
+		d.add(5, 6);
 		d.add(3.6, 7.5);
 		d.prn("로제");
 		d.prn(67);
