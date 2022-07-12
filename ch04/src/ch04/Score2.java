@@ -25,7 +25,7 @@ public class Score2 {
 				sum += score[i][j];
 				tot[j] += score[i][j];
 			}
-			System.out.printf("%d\t%.1f\n", sum,(double)sum/score[i].length);
+			System.out.printf("%d\t%.1f\n", sum,(double )sum/score[i].length);
 			sum = 0;
 		}
 		for(int i = 0; i < len; i++) { 

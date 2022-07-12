@@ -1,5 +1,4 @@
 package ch08;
-
 public class RemoteControlEx1 {
 	public static void main(String[] args) {
 		RemoteControl[] rc = new RemoteControl[2];
