@@ -19,7 +19,7 @@ class Child extends Parent {
 		this.x = x;
 	}
 }
-public class Ex02 {
+public class Ex02 { 
 	public static void main(String[] args) {
 		Child c = new Child();
 		System.out.println("x=" + c.getX());
