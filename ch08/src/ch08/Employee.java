@@ -1,6 +1,14 @@
 package ch08;
+// aa
+/*
+ * good
+ */
+/**
+ * author : juni
+ * date : 2022. 7
+ */
 public class Employee {
-	public final double INCENTIVE_RATE = 0.1; // 10%로 고정
+	public final double INCENTIVE_RATE = 0.1; 
 	private String name;
 	public Employee() {}
 	Employee(String name ) {
@@ -8,10 +16,10 @@ public class Employee {
 	}
 	public String getName() {			return name;		}
 	public void setName(String name) {	this.name = name;	}	
-	int computePay() { // 재정의해서 사용해라
+	int computePay() { 
 		return 0;
 	}
-	final int computrIncentive() { // 재정의 불가 
+	final int computrIncentive() { 
 		int result = 0;
 		int pay = computePay();
 		if (pay >= 100000) {

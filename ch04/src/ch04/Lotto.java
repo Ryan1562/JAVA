@@ -19,7 +19,7 @@ public class Lotto {
 		}
 		int imsi = 0;
 		for (int i = num; i < lotto.length; i++) {
-	//	for (int i = 0; i < lotto.length; i++) {
+	//	for (int i = 0; i < lotto.length; i++) {  34 45 34
 //		           (int)0.00000...1 ~ 44.99999 => 0 ~ 44 + 1 => 1 ~ 45
 			lotto[i] = (int) (Math.random() * 45) + 1;
 			for (int j = i - 1; j >= 0; j--) { // j =1

@@ -10,9 +10,9 @@ public class SingleEx {
 		System.out.println(s2);
 		System.out.println(s3);
 		System.out.println("=================");
-		Single1 s4 = Single1.getInstance();
-		Single1 s5 = Single1.getInstance();
-		Single1 s6 = Single1.getInstance();
+		Single1 s4 = Single1.getInstace();
+		Single1 s5 = Single1.getInstace();
+		Single1 s6 = Single1.getInstace();
 		
 		System.out.println(s4);
 		System.out.println(s5);
